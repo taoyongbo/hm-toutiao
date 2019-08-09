@@ -89,6 +89,9 @@ export default {
     logout () {
       store.clearUser()
       this.$router.push('/login')
+    },
+    setting () {
+      this.$router.push('/setting')
     }
   }
 
