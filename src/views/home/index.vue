@@ -80,7 +80,7 @@ export default {
   created () {
     const user = store.getUser()
     this.name = user.name
-    this.photo = user.photow
+    this.photo = user.photo
   },
   methods: {
     toggleMenu () {

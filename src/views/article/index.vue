@@ -86,7 +86,7 @@ export default {
     return {
       reqParams: {
         status: null,
-        channel_id: 2,
+        channel_id: null,
         begin_pubdate: null,
         end_pubdate: null,
         page: 1,
